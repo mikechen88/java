@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group>
+		<item android:id="@+id/MI_PASTE" android:title="Paste"/>
+		<item android:id="@+id/MI_TIMESTAMP" android:title="Timestamp"/>
+		<item android:id="@+id/MI_CLEAR" android:title="Clear"/>
+	</group>
+</menu>

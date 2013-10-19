@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ratings>
+    <rating 
+        moviename="star trek"
+        genre="scifi"
+        rating="2" />
+	<rating
+	    moviename="after earth"
+	    genre="scifi"
+	    rating="3" />
+	<rating 
+	    moviename="fast and furious 6"
+	    genre="action"
+	    rating="6" />
+</ratings>

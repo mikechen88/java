@@ -1,0 +1,55 @@
+package com.example.a72;
+
+public class Stock {
+	private String stockName;
+
+	public String getStockName() {
+		return stockName;
+	}
+
+	public void setStockName(String stockName) {
+		this.stockName = stockName;
+	}
+
+
+
+	private int buyPrice;	
+	public int getBuyPrice() {
+		return buyPrice;
+	}
+
+	public void setBuyPrice(int buyPrice) {
+		this.buyPrice = buyPrice;
+	}
+
+	public int getBidPrice() {
+		return bidPrice;
+	}
+
+	public void setBidPrice(int bidPrice) {
+		this.bidPrice = bidPrice;
+	}
+
+	public int getHands() {
+		return hands;
+	}
+
+	public void setHands(int hands) {
+		this.hands = hands;
+	}
+
+	public int getProfit(){
+		return (int )((bidPrice-buyPrice)/buyPrice);
+	}
+
+
+	private int bidPrice;
+	private int hands;
+
+	public Stock(String stockName){//), int buyPrice,int bidPrice,int hands) {
+		this.stockName = stockName;
+		this.buyPrice = buyPrice;
+		this.bidPrice=bidPrice;
+		this.hands=hands;
+	}
+}

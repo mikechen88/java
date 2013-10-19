@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/MAIN_VIEW"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+    <LinearLayout 
+   		android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+		<TextView
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:padding="8sp"
+		    android:gravity="center_horizontal"
+		    android:textSize="10pt"
+		    android:text="@string/view_title" />    	
+		<TextView
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/song_money" />
+		<ImageView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/money"
+		    android:scaleType="matrix" />
+		<TextView
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/song_clarion" />		    
+		<ImageView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/hulu"
+		    android:scaleType="matrix" />
+		<TextView
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/song_bird" />	
+		<ImageView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/bird"
+		    android:scaleType="matrix" />		    	    	
+		<TextView
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/song_quant" />
+		<ImageView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/lake"
+		    android:scaleType="matrix" />		    	    	
+	</LinearLayout>    
+</ScrollView>

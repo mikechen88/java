@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Dialog Show Demo"/>
+	<TextView android:id="@+id/txtAlert"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Alert Dialog"/>
+	<TextView android:id="@+id/txtProgress"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Progress Dialog"/>
+	<TextView android:id="@+id/txtDatePicker"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Date Picker Dialog"/>        
+	<TextView android:id="@+id/txtTimePicker"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Time Picker Dialog"/>    
+	<TextView android:id="@+id/txtCustom"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin="10px"	    
+	    android:text="Custom Dialog"/>                       
+</LinearLayout>

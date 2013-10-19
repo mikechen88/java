@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<TextView android:id="@+id/TXT_GROUP_ITEM" 
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:paddingLeft="32sp"
+		android:textSize="8pt"
+		android:text="Group#1"/>				
+</LinearLayout>

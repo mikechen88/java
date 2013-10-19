@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal" />
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0,1" >
+    	<TableRow>
+    		<Button android:id="@+id/BTN_LOCK"
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content"
+	    		android:text="Lock" />
+    		<Button android:id="@+id/BTN_UNLOCK"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Unlock" /> 				    		
+    	</TableRow>
+    </TableLayout>	    
+	<EditText android:id="@+id/TXT_CONTENTS"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical"
+	    android:textSize="6pt" />	    
+</LinearLayout>

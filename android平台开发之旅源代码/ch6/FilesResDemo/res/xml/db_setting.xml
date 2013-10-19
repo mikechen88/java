@@ -1,0 +1,5 @@
+<Setting>
+	<Url value="jdbc:oracle:thin:@localhost:1521/foolstudio"/>
+	<User value="foolstudio"/>
+	<Password value="master"/>
+</Setting>

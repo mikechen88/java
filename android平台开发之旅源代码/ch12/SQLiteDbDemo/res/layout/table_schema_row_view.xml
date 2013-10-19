@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"> 
+	<TextView android:id="@+id/txtColIndex"
+		android:textSize="14sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="10dp"			
+		android:text="column-index"/>
+	<TextView android:id="@+id/txtColName"
+		android:textSize="14sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/txtColIndex"
+		android:layout_alignTop="@id/txtColIndex"
+		android:paddingRight="10dp"	
+		android:paddingTop="10dp"
+		android:text="column-name"/>
+	<TextView android:id="@+id/txtColType"
+		android:textSize="14sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/txtColName"
+		android:layout_alignTop="@id/txtColName"
+		android:paddingRight="10dp"	
+		android:paddingTop="10dp"
+		android:text="column-type"/>	
+</RelativeLayout>

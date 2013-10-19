@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="20sp"
+	    android:gravity="center_horizontal" />	    
+	<Button android:id="@+id/BTN_SELECT"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Select picture" />
+	<ImageView android:id="@+id/IMG_DEST"
+	    android:layout_width="240sp" 
+	    android:layout_height="240sp"
+	    android:layout_gravity="center"
+	    android:padding="10sp"
+	    android:scaleType="fitXY" />	   	    	    
+</LinearLayout>

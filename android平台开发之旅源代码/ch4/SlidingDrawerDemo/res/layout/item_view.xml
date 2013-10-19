@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" > 
+	<ImageView android:id="@+id/IMG_ICON"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:scaleType="fitXY"/>
+	<TextView android:id="@+id/LAB_TITLE"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/IMG_ICON"
+		android:layout_alignTop="@id/IMG_ICON"
+		android:paddingLeft="20dp"	
+		android:paddingTop="15dp"
+		android:textSize="8pt" />
+</RelativeLayout>

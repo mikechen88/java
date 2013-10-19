@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heading1">#DF013A</color>
+    <color name="heading2">#3104B4</color>
+    <color name="heading3">#1C1C1C</color>
+    <color name="error_text">#FE2E2E</color>
+</resources>

@@ -1,0 +1,260 @@
+!SESSION 2013-01-11 14:04:30.320 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-01-11 14:19:40.635
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:35:28.804
+!MESSAGE A [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:35:28.832
+!MESSAGE APP [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:35:28.833
+!MESSAGE APP [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:35:32.053
+!MESSAGE APP_WIT [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:35:59.124
+!MESSAGE APP_HEIG [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:41:51.691
+!MESSAGE ST [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:41:51.701
+!MESSAGE ST [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:41:51.703
+!MESSAGE STA [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:42:12.301
+!MESSAGE ST [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 14:42:12.305
+!MESSAGE S [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-11 15:03:28.493
+!MESSAGE H [in Stairs [in [Working copy] Stairs.java [in <default> [in src [in assignment1]]]]] does not exist
+!SESSION 2013-01-12 10:14:08.998 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-01-12 10:19:14.664
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-01-15 15:41:03.339 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-01-15 15:43:45.308
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:48:25.595
+!MESSAGE a_ [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:48:33.183
+!MESSAGE A_ [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:48:33.197
+!MESSAGE A_WI [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:48:55.354
+!MESSAGE A_H [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:49:16.527
+!MESSAGE _WIDTH [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:49:20.066
+!MESSAGE P_ [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:50:05.970
+!MESSAGE P_HEIGHTTH [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:51:00.238
+!MESSAGE B_ [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:51:20.389
+!MESSAGE B_R [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:53:13.555
+!MESSAGE S [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:53:16.118
+!MESSAGE START [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:53:48.055
+!MESSAGE r [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:53:53.617
+!MESSAGE R [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 15:53:53.620
+!MESSAGE RAD [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 16:07:39.012
+!MESSAGE B_HEIG [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2013-01-15 16:11:06.919
+!MESSAGE B_SP [in Breakout [in [Working copy] Breakout.java [in <default> [in src [in assignment2]]]]] does not exist
+
+!ENTRY org.eclipse.ui.ide 4 4 2013-01-16 21:40:08.247
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2013-01-16 21:40:08.247
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2013-01-16 21:40:08.247
+!MESSAGE Could not write file: F:\java code\itc115\lecture4.
+!SESSION 2013-01-19 11:27:07.537 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2013-01-19 11:27:29.457
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2013-01-19 11:27:29.458
+!MESSAGE Could not read metadata for 'lecture4'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'lecture4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1528)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:463)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2013-01-19 11:27:29.478
+!MESSAGE The project description file (.project) for 'lecture4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 4 4 2013-01-19 11:28:14.863
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2013-01-19 12:07:44.751
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+!SESSION 2013-01-26 06:10:21.642 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\feng\java code\itc115 -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2013-01-26 06:10:53.221
+!MESSAGE The project description file (.project) for 'lecture4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 4 4 2013-01-26 06:10:57.788
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-01-26 12:01:17.645 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-01-26 17:29:08.144
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-01-27 17:29:52.286 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-27 17:30:21.897
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2013-01-27 17:31:05.038
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-16 19:42:48.313 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-02-16 19:43:04.037
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-16 19:44:11.077
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2013-02-16 20:45:36.928
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 6393 milliseconds.
+!SESSION 2013-03-02 15:18:16.157 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui 4 4 2013-03-02 19:35:00.876
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-03-05 16:07:25.277 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2013-03-05 16:07:49.757
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 9271 milliseconds.
+
+!ENTRY org.eclipse.ui 4 4 2013-03-05 16:07:56.329
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-03-08 19:11:46.315 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -data C:\Users\feng\Documents\java code\itc115 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui 4 4 2013-03-09 17:58:39.109
+!MESSAGE Invalid preference page path: XML Syntax

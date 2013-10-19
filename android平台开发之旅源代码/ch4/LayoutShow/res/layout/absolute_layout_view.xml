@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_x="10dp"
+	    android:layout_y="10dp" 
+	    android:text="AbsoluteLayout"/>
+	<Button  
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_x="20dp"
+	    android:layout_y="50dp"   
+	    android:text="Button widget"/>    
+	<CheckBox  
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_x="30dp"
+	    android:layout_y="90dp" 	     
+	    android:text="CheckBox widget"/>
+	<RadioButton  
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_x="40dp"
+	    android:layout_y="130dp"	     
+	    android:text="RadioButton widget"/>
+	<ImageView  
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_x="50dp"
+	    android:layout_y="170dp"	    
+	    android:src="@drawable/icon"/>
+</AbsoluteLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">WebViewDemo</string>
+    <string name="defaultId">未知编号请求！</string>
+    <string name="btnPlace">地点查找</string>
+    <string name="btnDrive">驾车导航</string>
+    <string name="btnBus">公交导航</string>
+    <string name="strPlace">地点：</string>
+    <string name="btnFind">查找</string>
+    <string name="strFrom">起点：</string>
+    <string name="strTo">终点：</string>
+</resources>

@@ -1,0 +1,20 @@
+1370351884940	Rename resource 'drawable-hdpi'
+1370353463285	Copy compilation units
+1370353505637	Delete element
+1370364047062	Delete element
+1370365492545	Rename resource 'fruit_listing.xml'
+1370365580259	Rename type 'FruitActivity'
+1370365700025	Rename type 'Fruit'
+1370366648999	Delete element
+1370366861703	Rename resource 'activity_fruit.xml'
+1370369850295	Delete element
+1370693290702	Rename local variable 'fruitName'
+1370693307347	Rename local variable 'fruitColor'
+1370693475257	Rename local variable 'fruitXML'
+1370693689305	Rename local variable 'fruitAdapter'
+1370693708116	Rename type 'FruitAdapter'
+1370693855356	Rename type 'FruitItemClickListener'
+1370693916208	Rename resource 'fruit_row.xml'
+1370694146099	Rename resource 'activity_stock.xml'
+1370695324177	Rename method 'getFruitFromXML'
+1370695953129	Rename local variable 'fruitList'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal" />
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0,1" >
+    	<TableRow>
+    		<ImageButton android:id="@+id/BTN_INIT"  
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:src="@drawable/start" />   		
+    		<ImageButton android:id="@+id/BTN_UNINIT"  
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:src="@drawable/stop" />    		 				    		
+    	</TableRow>
+    </TableLayout>
+	<ViewFlipper android:id="@+id/CONTENTS_PANEL"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:flipInterval="1000">			
+	</ViewFlipper>    	    
+</LinearLayout>

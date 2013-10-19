@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SQLiteJournalBookApp</string>
+	<string name="report_title">+-----Timestamp------Comments-----Money--+</string>
+<string name="about_contents">Copyright (C) 2009 Fool studio.\n\nAll rights reserved.\n\nE-mail: foolstudio@yahoo.com.cn</string>
+</resources>

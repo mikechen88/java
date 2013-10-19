@@ -1,0 +1,1 @@
+请从ch12\db4oJournalBook\lib获取jar文件。

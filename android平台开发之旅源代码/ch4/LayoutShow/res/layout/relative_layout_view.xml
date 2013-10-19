@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView android:id="@+id/labTitle" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="RelativeLayout"/>
+	<Button android:id="@+id/btnAction"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/labTitle"
+	    android:text="Button widget"/>    
+	<CheckBox  android:id="@+id/chxSel"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@id/btnAction"
+	    android:layout_toRightOf="@id/btnAction"	     
+	    android:text="CheckBox widget"/>
+	<RadioButton android:id="@+id/rbtnSel"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/chxSel" 
+	    android:layout_alignLeft="@id/chxSel"
+	    android:text="RadioButton widget"/>
+	<ImageView  
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rbtnSel"
+	    android:layout_alignRight="@id/rbtnSel"
+	    android:src="@drawable/icon"/>
+</RelativeLayout>

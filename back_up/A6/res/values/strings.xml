@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="time">Time </string>
+    <string name="comment">Comment </string>
+    <string name="title">Title </string>
+     <string name="state">State: </string>
+       <string name="finish">FINISH! </string>
+    <string name="about_contents">Copyright (C) 2013 Fool studio.\n\nAll rights reserved.\n\n E-mail: feng168988@yahoo.com</string>
+    <string name="error_blank">* blank</string>
+
+</resources>

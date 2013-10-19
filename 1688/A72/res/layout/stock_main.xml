@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+    android:background="@color/white" >
+
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="0,1,2" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/time" />
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/event" />
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/comment" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FF00FF00" />
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/ListView_People"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           >
+        </ListView>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:stretchColumns="0,1,2,3" >
+
+       
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/append"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Append" />
+                
+                
+                   <Button
+                    android:id="@+id/lookup"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lookup" />
+
+           
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/record"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finish   Recoder" />
+
+                <Button
+                    android:id="@+id/delete"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete   All" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+

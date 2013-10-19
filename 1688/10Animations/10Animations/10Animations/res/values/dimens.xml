@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
+	<dimen name="seperator">16dp</dimen>
+	<dimen name="heading1">12pt</dimen>
+	<dimen name="heading2">10pt</dimen>
+	<dimen name="heading3">8pt</dimen>
+	<dimen name="item_padding">2pt</dimen>
+	<dimen name="error">6pt</dimen>
+
+</resources>

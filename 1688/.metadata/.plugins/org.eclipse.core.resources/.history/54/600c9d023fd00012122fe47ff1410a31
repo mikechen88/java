@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stocks>
+    <stock 
+        name ="BAC"
+        buy="5.00" 
+        hands="8000000"
+        bid="11.00"
+        />
+    
+    <stock 
+        name ="APPLE"
+        buy="100.00" 
+        hands="900000"
+        bid="500.00"/>
+    
+    <stock 
+        name ="GOOG"
+        buy="500.00" 
+        hands="500000"
+        bid="800"/>
+</stocks>

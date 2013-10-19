@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/app_name"
+		    android:padding="8sp"
+		    android:gravity="center_horizontal" />
+		<!-- Landscape1 -->		  
+		<ToggleButton android:id="@+id/BTN_TOGGLE1"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:checked="false"/>
+		<ImageView android:id="@+id/VIEW_BKG1"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:src="@drawable/landscape1"
+		    android:visibility="gone"/>
+		<!-- Landscape2 -->		
+		<ToggleButton android:id="@+id/BTN_TOGGLE2"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:checked="false"/>
+		<ImageView android:id="@+id/VIEW_BKG2"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/landscape2"
+		    android:layout_gravity="center_horizontal"
+		    android:visibility="gone"/>
+		<!-- Landscape3 -->		    	
+		<ToggleButton android:id="@+id/BTN_TOGGLE3"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:checked="false"/>
+		<ImageView android:id="@+id/VIEW_BKG3"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/landscape3"
+		    android:layout_gravity="center_horizontal"
+		    android:visibility="gone"/>
+		<!-- Landscape4 -->		    
+		<ToggleButton android:id="@+id/BTN_TOGGLE4"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:checked="false"/>
+		<ImageView android:id="@+id/VIEW_BKG4"
+			android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/landscape4"
+		    android:layout_gravity="center_horizontal"
+		    android:visibility="gone"/>		    		        	    	    	    
+	</LinearLayout>
+</ScrollView>

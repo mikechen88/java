@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal"/>
+	<foolstudio.demo.media.FoolSurfaceView android:id="@+id/SVIEW" 
+	  	android:layout_width="176px" 
+	   	android:layout_height="144px"
+	   	android:layout_gravity="center"/>	    	
+</LinearLayout>

@@ -1,0 +1,105 @@
+package com.example.a72.sql;
+
+import java.util.ArrayList;
+
+import com.example.a72.R;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+
+
+
+public class LookupResult extends Activity implements OnClickListener {
+
+	
+	
+	 String key;
+	 
+	 String value;
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.record_view);
+		
+	
+	            
+	        
+	        //listener
+	        Button go_back = (Button)findViewById(R.id.go_home);
+	     
+	        go_back.setOnClickListener(this);
+	        
+	        
+	        
+	        Bundle bundle =getIntent().getExtras();
+	         key=bundle.getString("key");
+	        value=bundle.getString("value");
+	        
+	    	Log.i("after bundle get item string ", key+"  "+value);
+	        initPatientList();
+		
+	}
+	
+	private void initPatientList()
+	{		
+		
+		
+		
+		ArrayList<Person> people = new SQLHelper(this).query(key,value);
+		
+		if (people.size() > 0) 
+		{
+			//add the patients to the list view
+			ListView personListView = (ListView)findViewById(R.id.ListView_finish);
+			PersonAdapter personAdapter = new PersonAdapter(this, R.layout.person_row, people);
+			personListView.setAdapter(personAdapter);
+			//personListView.setOnItemClickListener(new FruitItemClickListener());
+		}
+	}
+	
+	
+	 private class PersonAdapter extends ArrayAdapter<Person> 
+	    {
+	    	public PersonAdapter(Context context, int textViewResourceId, ArrayList<Person> people) 
+	    	{
+				super(context, textViewResourceId, people);
+			}
+	    	
+	    	@Override
+			public View getView(int position, View convertView, ViewGroup parent) 
+	    	{
+	    		if (convertView == null) 
+	    		{
+					LayoutInflater mInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+					convertView = mInflater.inflate(R.layout.person_row, null);
+				}
+	    		
+	    		final Person person = getItem(position);
+	    		
+	    		if(person != null)
+	    		{
+	    			TextView nameTV = (TextView) convertView.findViewById(R.id.TextView_Name);
+	    			nameTV.setText(person.getName());
+	    		}
+	    		
+	    		return convertView;
+	    	}
+	    }
+	
+	
+	@Override
+	public void onClick(View arg0) {
+		// TODO Auto-generated method stub
+		this.finish();
+	}
+
+}

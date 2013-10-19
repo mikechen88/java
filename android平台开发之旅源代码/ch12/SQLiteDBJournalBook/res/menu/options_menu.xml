@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group>
+		<item android:title="Database" 
+			android:orderInCategory="0" 
+			android:icon="@drawable/db" 
+			android:id="@+id/MI_CONFIG">
+		</item>
+	</group>
+	<group>
+		<item android:id="@+id/MI_APPEND" 
+			android:title="Append" 
+			android:orderInCategory="0" 
+			android:icon="@drawable/append">
+		</item>
+		<item android:id="@+id/MI_REVIEW" 
+			android:title="Review" 
+			android:orderInCategory="1" 
+			android:icon="@drawable/preview">
+		</item>
+		<item android:id="@+id/MI_LOOKUP" 
+			android:title="Lookup" 
+			android:orderInCategory="2" 
+			android:icon="@drawable/lookup">
+		</item>
+	</group>
+	<group>
+		<item android:id="@+id/MI_ABOUT" 
+			android:title="About" 
+			android:orderInCategory="3" 
+			android:icon="@drawable/about">
+		</item>
+		<item android:id="@+id/MI_QUIT" 
+			android:title="Quit" 
+			android:orderInCategory="4" 
+			android:icon="@drawable/quit">
+		</item>
+	</group>
+</menu>

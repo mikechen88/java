@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/itemDrop"
+		android:title="Drop table" />
+	<item android:id="@+id/itemCreate"
+		android:title="Create table" />		
+</menu>

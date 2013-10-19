@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16sp" >
+    <RadioGroup android:id="@+id/RGP_SEL"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:checkedButton="@+id/BTN_MID">	    
+		<RadioButton android:id="@+id/BTN_BEG"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+			android:text="Beginng" />
+		<RadioButton android:id="@id/BTN_MID"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+			android:text="50%"/>		    
+		<SeekBar android:id="@+id/BAR_PROGRESS"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:padding="12sp"
+			android:max="100"
+			android:stepSize="5"
+			android:progress="50"/>
+		<RadioButton android:id="@+id/BTN_END"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+			android:text="Ending"
+			android:layout_below="@id/BTN_MID"/>
+	</RadioGroup>
+	<TableLayout 
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0,1">
+	    <TableRow>
+			<Button android:id="@+id/BTN_DISCARD"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+				android:text="Discard"/>
+			<Button android:id="@+id/BTN_OK"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+				android:text="OK"/>				
+		</TableRow>
+	</TableLayout>								
+</LinearLayout>

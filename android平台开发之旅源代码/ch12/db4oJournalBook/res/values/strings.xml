@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">db4oJournalBookApp</string>
+	<string name="report_title">+-----Timestamp------Comments-----Money--+</string>
+</resources>

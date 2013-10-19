@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;tankWar19/src&apos;&#x0D;&#x0A;- Original project: &apos;tankWar18&apos;&#x0D;&#x0A;- Destination element: &apos;tankWar19/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Tank.java&#x0D;&#x0A;     Missile.java&#x0D;&#x0A;     TankClient.java&#x0D;&#x0A;     Explode.java" description="Copy compilation units" destination="=tankWar19/src" element1="/src&lt;{Tank.java" element2="/src&lt;{Missile.java" element3="/src&lt;{TankClient.java" element4="/src&lt;{Explode.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1362721117576" units="4" version="1.0"/>
+</session>

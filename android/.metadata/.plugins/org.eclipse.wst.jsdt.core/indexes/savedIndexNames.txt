@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\feng\Documents\java code\android\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3892148314.index
+627834115.index
+4151459870.index
+1243057733.index
+3590193085.index

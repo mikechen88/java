@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="titles">
+		<item>Text Switcher Demo</item>
+		<item>Google Android Platform</item>
+		<item>Google Market</item>
+		<item>Java 2 Micro Edition</item>
+		<item>Eclipse with ADT</item>
+		<item>Hello, Android!</item>
+	</string-array>
+</resources>

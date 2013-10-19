@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:padding="40sp"
+	    android:textSize="10pt"
+	    android:textColor="#00FF00"    
+	    android:text="Database config" />
+	<Button android:id="@+id/BTN_INIT"
+	    android:layout_width="160sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Init database" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" />	    
+	<Button android:id="@+id/BTN_DROP"
+	    android:layout_width="160sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Drop database" />   	    		    	    	    
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="16sp"
+	    android:gravity="center_horizontal" />
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0,1" >
+    	<TableRow>
+    		<Button android:id="@+id/BTN_INIT"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Start" />    		
+    		<Button android:id="@+id/BTN_UNINIT"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Stop" />    		 				    		
+    	</TableRow>
+    </TableLayout>
+	<Chronometer android:id="@+id/chronometer"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:format="%s"
+	    android:padding="8sp"
+	    android:textColor="#FF0000"
+	    android:textSize="32sp"/>
+	<EditText android:id="@+id/TXT_CONTENTS"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical"
+	    android:editable="false"
+	    android:textSize="6pt" />	    	    
+</LinearLayout>

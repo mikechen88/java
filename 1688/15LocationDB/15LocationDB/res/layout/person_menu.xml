@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bkgrd" >
+ 
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/title"
+	    android:textColor="@color/title_color"
+	    android:textSize="@dimen/title_size" />
+	    
+	<ListView
+		android:id="@+id/ListView_People"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	</ListView>
+	              
+	<Button
+		android:id="@+id/Button_AddRecord"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/add_record"
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size" />
+
+	<Button
+		android:id="@+id/Button_DeleteRecords"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/delete_records"
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size" /> 
+</LinearLayout>

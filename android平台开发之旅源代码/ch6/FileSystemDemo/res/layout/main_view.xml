@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal" />
+	<Button android:id="@+id/BTN_CREATE_FOLDER"
+	    android:layout_width="150sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Create folder"/>	    
+	<Button android:id="@+id/BTN_CREATE_FILE"
+	    android:layout_width="150sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Create file"/>
+	<Button android:id="@+id/BTN_READ_FILE"
+	    android:layout_width="150sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Read file"/>	    
+	<Button android:id="@+id/BTN_LIST_FILES"
+	    android:layout_width="150sp" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="List files"/>	    	    
+</LinearLayout>

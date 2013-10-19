@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fruits>
+    <fruit 
+        name ="apple"
+        color="red" />
+    
+    <fruit 
+        name ="banana"
+        color="yellow" />
+    
+    <fruit 
+        name ="cherries"
+        color="red" />
+</fruits>

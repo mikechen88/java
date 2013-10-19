@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medical Records</string>
+	<string name="title">Medical Condition Database</string>
+	<string name="add_record_title">Enter Person</string>
+	
+	<string name="add_record">Add Person Information</string>
+	<string name="delete_records">Delete all Patients</string>
+	
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="save_record">Save</string>
+	
+	<string name="error_blank">* blank</string>
+</resources>

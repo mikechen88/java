@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="h1">#663333</color>
+    <color name="h2">#0000FF</color>
+        <color name="h4"> #FF00FF00</color>
+    <color name="settings_error">#FF3333</color>
+</resources>

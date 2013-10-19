@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="title_size">10pt</dimen>
+   
+    <dimen name="settings_item_size">10pt</dimen>
+</resources>

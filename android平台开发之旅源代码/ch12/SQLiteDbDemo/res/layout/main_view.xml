@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"    
+	    android:text="== SQLite Database Demo =="
+	    android:layout_margin = "30px"/>
+	<Button android:id="@+id/btnDbMan"
+		android:layout_width="160sp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_margin = "10px"
+		android:text="DB Management"/>       
+	<Button android:id="@+id/btnLoginMan"
+		android:layout_width="160sp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+		android:text="Login Management"/>     
+</LinearLayout>

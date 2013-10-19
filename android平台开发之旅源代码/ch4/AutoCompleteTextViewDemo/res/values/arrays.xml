@@ -1,0 +1,18 @@
+<resources>
+	<string-array name="topics">
+		<item>Android</item>
+		<item>Android Market</item>
+		<item>Android SDK</item>		
+		<item>Google</item>		
+		<item>Google Earth</item>
+		<item>Google Map</item>
+		<item>Dalvik</item>		
+		<item>Dalvik VM</item>
+		<item>fool</item>
+		<item>foolstudio</item>		
+		<item>foolstudio@</item>
+		<item>foolstudio.</item>	
+		<item>foolstudio@yahoo.com.cn</item>
+		<item>foolstudio.blogcn.com</item>							
+	</string-array>
+</resources>

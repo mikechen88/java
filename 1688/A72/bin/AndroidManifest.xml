@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a72"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ee"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.a72.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+             android:name="com.example.a72.SecondActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+        
+        
+                   <activity
+             android:name="com.example.a72.HelpActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+                   
+                         <activity
+             android:name="com.example.a72.tab.FirstViewActivity"
+            android:label="@string/app_name" >
+            </activity>
+        
+                             <activity
+             android:name="com.example.a72.tab.MainTabActivity"
+            android:label="@string/app_name" >
+            </activity>
+                <activity
+             android:name="com.example.a72.tab.SecondViewActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+                
+                
+                   <activity
+             android:name="com.example.a72.tab.StockActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+                   
+                   
+                <activity
+             android:name="com.example.a72.a82.FourthActivity"
+            android:label="@string/app_name" >
+            </activity>
+                          <activity
+             android:name="com.example.a72.a82.About"
+            android:label="@string/app_name" >
+            </activity>
+            
+                          
+                          
+                          
+                              <activity
+             android:name="com.example.a72.tab.Aganda"
+            android:label="@string/app_name" >
+            </activity>              
+                          
+                   
+                              <activity
+             android:name="com.example.a72.sql.Append"
+            android:label="@string/app_name" >
+            </activity>               
+                          
+                     
+                              <activity
+             android:name="com.example.a72.sql.Lookup"
+            android:label="@string/app_name" >
+            </activity>             
+                          
+                       
+                              <activity
+             android:name="com.example.a72.sql.Person"
+            android:label="@string/app_name" >
+            </activity>           
+                          
+                              
+                   
+                              <activity
+             android:name="com.example.a72.sql.Record"
+            android:label="@string/app_name" >
+            </activity>                   
+                              
+                         
+                              <activity
+             android:name="com.example.a72.sql.Review"
+            android:label="@string/app_name" >
+            </activity>             
+                              
+                  
+                              <activity
+             android:name="com.example.a72.sql.SQLHelper"
+            android:label="@string/app_name" >
+            </activity>                    
+                              
+                              
+                 
+                              <activity
+             android:name="com.example.a72.sql.LookupResult"
+            android:label="@string/app_name" >
+            </activity>                    
+                                        
+                              
+                              
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;threadsex&apos; to &apos;Threadsex&apos;&#x0D;&#x0A;- Original project: &apos;game&apos;&#x0D;&#x0A;- Original element: &apos;threadsex&apos;&#x0D;&#x0A;- Renamed element: &apos;Threadsex&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;threadsex&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{threadsex.java[threadsex" matchStrategy="1" name="Threadsex" qualified="false" references="true" similarDeclarations="false" stamp="1357163933763" textual="false" version="1.0"/>
+</session>

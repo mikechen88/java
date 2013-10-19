@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/one_layout_root"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+  	>
+  	<TextView
+  		android:id="@+id/txtPlace"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_alignBaseline="@+id/editPlace"
+  		android:layout_marginLeft="4dp"
+  		android:paddingTop="5dp"
+  		android:paddingLeft="5dp"
+  		android:textSize="20dp" 
+  		android:textColor="#FFFFFFFF"
+  		android:text="@string/strPlace"
+  		/>
+	<EditText 
+		android:id="@+id/editPlace"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/txtPlace"
+		android:background="@drawable/edit" 
+		android:saveEnabled="true" 
+		/>
+	<Button
+		android:id="@+id/btnPlaceFind"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/editPlace"
+		android:layout_alignBaseline="@id/editPlace"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:background="@drawable/btn_select"
+		android:textSize="18dp" 
+		android:text="@string/btnFind"
+		/>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:id="@+id/PANEL_MAIN"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:padding="8sp"/>	
+	<SlidingDrawer android:id="@+id/MAIN_VIEW"
+		android:layout_below="@id/PANEL_MAIN"	
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:handle="@+id/HANDLE_VIEW"
+		android:content="@+id/CONTENT_VIEW">
+		<TextView android:id="@id/HANDLE_VIEW"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		 	android:gravity="center_horizontal"
+		 	android:background="#111111"
+		    android:text="请选择项目"/>
+	    <ListView android:id="@id/CONTENT_VIEW"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>
+	</SlidingDrawer>	
+</RelativeLayout>

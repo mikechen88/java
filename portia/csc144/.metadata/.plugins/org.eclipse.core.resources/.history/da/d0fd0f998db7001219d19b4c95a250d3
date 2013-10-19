@@ -1,0 +1,114 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+/** This class models a single question in the course data base. */
+public class TMQuestion {
+
+	// the number of the question (must be > 0)
+	private int number;
+
+	// the text of the question
+	private ArrayList<String> text = new ArrayList<String>();
+
+	// the answers to the question and their links to other questions
+	private Map<String, Integer> answers = new HashMap<String, Integer>();
+
+	// the separator between the text of the questions and the answers in the
+	// file
+	private static String MARKER = "-----";
+
+	// A question is always built from a file
+	private TMQuestion() {
+	}
+
+	/**
+	 * Returns the number of this question
+	 * 
+	 * @return the number of this question
+	 */
+	public int getQuestionNumber() {
+		return number;
+	}
+
+	/**
+	 * Returns the text of this question
+	 * 
+	 * @return the text of this question
+	 */
+	public ArrayList<String> getText() {
+		return text;
+	}
+
+	/**
+	 * Returns the number of the next question given the user's answer to this
+	 * question, or -1 if the user's answer is not a possible answer.
+	 * 
+	 * @param answer
+	 *            the answer given by the user
+	 * @return the number of the next question, or -1 is the answer is not a
+	 *         possible answer
+	 */
+	public int nextQuestion(String answer) {
+		Integer value = answers.get(answer);
+		if (value != null) {
+			return value;
+		} else {
+			return -1;
+		}
+	}
+
+	/**
+	 * Creates a question given a Scanner that can get the question's data. The
+	 * scanner must have been opened by the caller.
+	 * 
+	 * @param scanner
+	 *            the Scanner used to get the question's data
+	 * @return the question object based on the data read by the Scanner, or
+	 *         null if the question couldn't be constructed.
+	 */
+	public static TMQuestion readFromFile(Scanner scanner) {
+		if (scanner.hasNextLine()) {
+			String line = scanner.nextLine();
+			TMQuestion question = new TMQuestion();
+			// number
+			question.number = Integer.parseInt(line.trim());
+			// text
+			while (!(line = scanner.nextLine()).equals(MARKER)) {
+				question.text.add(line.trim());
+			}
+			// answers and links
+			while (scanner.hasNextLine()
+					&& (line = scanner.nextLine().trim()).length() != 0) {
+				int index = line.indexOf(":");
+				String answer = line.substring(0, index).trim().toUpperCase();
+				int next = Integer.parseInt(line.substring(index + 1).trim());
+				question.answers.put(answer, next);
+			}
+			return question;
+		} else {
+			return null;
+		}
+	}
+
+	/**
+	 * Returns a string representation of this question
+	 * 
+	 * @return a string representation of this question
+	 */
+	public String toString() {
+		String q = "";
+		q += number + "\n";
+		for (String s : text) {
+			q += s + "\n";
+		}
+		q += MARKER + "\n";
+		Set<String> keys = answers.keySet();
+		for (String k : keys) {
+			q += k + ": " + answers.get(k) + "\n";
+		}
+		return q;
+	}
+}

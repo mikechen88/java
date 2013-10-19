@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	android:stretchColumns="0,1">
+	<TableRow>
+		<TextView android:id="@+id/LAB_TIMESTAMP"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"		
+			android:text="timestamp"
+			android:textSize="@dimen/report_text_size"/>
+		<TextView android:id="@+id/LAB_COMMENTS"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="comments"
+			android:textSize="@dimen/report_text_size"/>
+		<TextView android:id="@+id/LAB_MONEY"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="0.0"
+			android:textSize="@dimen/report_text_size"/>
+	</TableRow>
+</TableLayout>

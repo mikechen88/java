@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tabs!</string>
+    
+    <string name="first_view_title">First View</string>
+    <string name="second_view_title">Second View</string>
+
+</resources>

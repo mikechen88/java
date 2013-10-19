@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<!-- LinearLayout must have orientation attribute -->	
+	<LinearLayout android:id="@+id/MAIN_PANEL"
+		android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/app_name"
+		    android:padding="8sp"
+		    android:gravity="center_horizontal" />	    
+	</LinearLayout>
+</ScrollView>

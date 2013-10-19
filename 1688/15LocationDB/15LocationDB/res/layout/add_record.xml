@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/bkgrd">
+  
+  	<TextView  
+  		android:id="@+id/TextView_AddEditTitle"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/add_record_title"
+	    android:textColor="@color/title_color"
+	    android:textSize="@dimen/title_size" />
+	
+	<!--  FIRST NAME -->
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/first_name"
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size" />
+	
+	<EditText 
+		android:id="@+id/EditText_FirstName"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size" 
+	    android:inputType="textPersonName"/>
+	
+	<TextView  
+		android:id="@+id/TextView_ErrorFirstName"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textColor="@color/settings_error" />  
+	    
+	<!--  LAST NAME -->
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/last_name"
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size" />
+	
+	<EditText 
+		android:id="@+id/EditText_LastName"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textColor="@color/settings_label"
+	    android:textSize="@dimen/settings_item_size"
+	    android:inputType="textPersonName" />
+	
+	<TextView  
+		android:id="@+id/TextView_ErrorLastName"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:textColor="@color/settings_error" />
+	
+	<Button 
+		android:id="@+id/Button_SaveRecord"
+	 	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/save_record"
+		/>
+</LinearLayout>

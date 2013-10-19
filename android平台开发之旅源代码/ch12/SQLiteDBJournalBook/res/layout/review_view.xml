@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView android:id="@+id/REVIEW_TITLE"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:padding="10sp"
+	    android:textSize="10pt"
+	    android:textColor="#00FF00"    
+	    android:text="Review record" />
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="Timstamp:" />
+	<EditText android:id="@+id/TEXT_TIMESTAMP"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="" 
+	    android:editable="false"/>
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="Comments:" />
+	<EditText android:id="@+id/TEXT_COMMENTS"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    android:lines="2" 
+	    android:editable="false"/>	    
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="Money:" />
+	<EditText android:id="@+id/TEXT_MONEY"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="" 
+	    android:editable="false"/>
+	<TableLayout 
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:padding="20dp"
+	    android:stretchColumns="1">
+	    <TableRow>	   
+			<Button android:id="@+id/BTN_NEXT"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="Next" />
+			<Button android:id="@+id/BTN_PREV"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="Prev" />
+			<Button android:id="@+id/BTN_BACK"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="Back" />			    
+		</TableRow>
+	</TableLayout>	    	    		    	    	    
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:stretchColumns="1">
+    <TableRow><!-- Row#1 -->
+		<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="TableLayout" />
+		<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:gravity="right" 
+		    android:text="TableLayout" />
+	</TableRow>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#FF00FF00" />
+	<TableRow> <!-- Row#2 -->	 	 
+		<Button  
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:text="Button" />
+		<CheckBox  
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="CheckBox" />
+	</TableRow>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#FF00FF00" />
+	<TableRow> <!-- Row#3 -->	    
+		<RadioButton  
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="RadioButton" />
+		<RadioButton  
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:text="RadioButton" />
+	</TableRow>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#FF00FF00" />
+	<TableRow> <!-- Row#4 -->	    	    
+		<ImageView  
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/icon"/>
+	</TableRow>	    
+</TableLayout>

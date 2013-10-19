@@ -1,0 +1,77 @@
+package com.example.a6;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class Review extends Activity implements OnClickListener {
+	private TextView mPrevieTitle = null;
+	private EditText mTxtTimestamp = null;
+	private EditText mTxtComments = null;
+	private EditText mTxtTitle = null;
+	// °´Å¥
+	private Button update = null;
+	private Button discard = null, delete;
+
+	
+	int  id;
+	String time, title , comment, finish;
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.review_view);
+		
+		Bundle bundle = getIntent().getExtras();
+        id=bundle.getInt("id");
+        time=bundle.getString("time");
+        title=bundle.getString("title");
+        comment=bundle.getString("comment");
+        finish=bundle.getString("finish");
+        
+
+		mPrevieTitle = (TextView) findViewById(R.id.REVIEW_TITLE);
+		mTxtTimestamp = (EditText) findViewById(R.id.TEXT_TIMESTAMP);
+		mTxtTitle = (EditText) findViewById(R.id.view_title);
+		mTxtComments = (EditText) findViewById(R.id.TEXT_COMMENTS);
+	
+		
+		mTxtTimestamp.setText(time);
+		mTxtTitle.setText(title);
+		mTxtComments.setText(comment);
+
+		// listener
+		update = (Button) findViewById(R.id.update);
+		discard = (Button) findViewById(R.id.discard);
+		delete = (Button) findViewById(R.id.delete);
+		update.setOnClickListener(this);
+		discard.setOnClickListener(this);
+		delete.setOnClickListener(this);
+
+	
+        
+        
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch (v.getId()) {
+		case R.id.update: {
+			this.finish();
+			// startActivity(new Intent ( this, MainActivity.class));
+			break;
+		}
+		case R.id.discard: {
+			break;
+		}
+		case R.id.delete: {
+			break;
+		}
+		}
+	}
+
+}

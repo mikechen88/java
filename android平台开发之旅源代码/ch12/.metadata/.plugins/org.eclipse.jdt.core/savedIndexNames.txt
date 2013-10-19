@@ -1,0 +1,12 @@
+INDEX VERSION 1.126+C:\Users\feng\Documents\java code\android平台开发之旅源代码\ch12\.metadata\.plugins\org.eclipse.jdt.core
+3915014116.index
+3761848512.index
+3410799932.index
+1916509893.index
+3542960435.index
+4111328196.index
+211713307.index
+133234531.index
+3747901957.index
+3369191579.index
+4097968029.index

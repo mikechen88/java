@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/color_blue" 
+    android:visibility="visible">
+	<TextView 
+		android:layout_y="20px" 
+		android:layout_x="65px"	
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:text="Picture Reunion Game"
+		android:textSize="9pt"/>    
+	<ImageView
+		android:layout_x="30px"
+		android:layout_y="50px"  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/sisters264x160"/>                      
+	<Button android:id="@+id/btnStart"
+		android:layout_x="120px"
+		android:layout_y="250px"  	
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="New Game"/>	
+</AbsoluteLayout>

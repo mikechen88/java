@@ -1,0 +1,40 @@
+package com.example.a72;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class StockActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.stock_activity);
+		
+		TextView name=(TextView)findViewById ( R.id.stockName);
+		TextView buyPrice=(TextView)findViewById ( R.id.buyPrice);
+		
+		TextView bidPrice=(TextView)findViewById ( R.id.bidPrice);
+		
+		TextView hands=(TextView)findViewById ( R.id.hands);
+		
+		TextView profits=(TextView)findViewById ( R.id.profits);
+		
+		
+		Bundle bundle=getIntent().getExtras();
+		
+		String stockName=bundle.getString("sotckName");
+		String buy_Price=bundle.getString("buy");
+		String bid_Price=bundle.getString("bit");
+		String buy_hands=bundle.getString("hands");
+		String profit=bundle.getString("profit");
+		
+		name.setText(stockName);
+		buyPrice.setText(buy_Price);
+		bidPrice.setText(bid_Price);
+		hands.setText(buy_hands);
+		profits.setText(profit);
+		
+	}
+}

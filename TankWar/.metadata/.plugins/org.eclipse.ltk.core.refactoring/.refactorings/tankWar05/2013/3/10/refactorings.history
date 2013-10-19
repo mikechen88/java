@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TankClient.java&apos; to &apos;tankWar06&apos;&#x0D;&#x0A;- Original project: &apos;tankWar05&apos;&#x0D;&#x0A;- Destination element: &apos;tankWar06&apos;&#x0D;&#x0A;- Original element: &apos;TankClient.java&apos;" description="Copy compilation unit" destination="=tankWar06" element1="/src&lt;{TankClient.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1362674266596" units="1" version="1.0"/>
+</session>

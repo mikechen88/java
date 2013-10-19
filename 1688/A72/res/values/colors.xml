@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="h1">#663333</color>
+    <color name="h2">#0000FF</color>
+        <color name="h4"> #FF00FF00</color>
+        
+        
+        	<color name="background">#ECF7FE</color>   
+	<color name="heading1">#FF1493</color> 
+	<color name="heading2">#48D1CC</color>
+	<color name="heading3">#7B68EE</color>
+	<color name="error">#800000</color>
+ <color name="main_background">#1C1C1C</color>
+ 
+ 
+     <color name="error_text">#FE2E2E</color>
+     
+     
+      <color name="settings_error">#FF3333</color>
+      
+      <color name="white">#FFFFFF</color>
+</resources>

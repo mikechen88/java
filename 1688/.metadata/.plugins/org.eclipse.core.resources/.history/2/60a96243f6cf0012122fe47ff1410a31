@@ -1,0 +1,57 @@
+package com.example.a6;
+
+import java.util.ArrayList;
+
+import com.example.a6.Aganda.FruitItemClickListener;
+import com.example.a6.Aganda.PersonAdapter;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+
+public class Record extends Activity implements OnClickListener {
+
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.record_view);
+		
+	
+	            
+	        
+	        //listener
+	        Button go_back = (Button)findViewById(R.id.go_home);
+	     
+	        go_back.setOnClickListener(this);
+	        initPatientList();
+		
+	}
+	
+	private void initPatientList()
+	{		
+		ArrayList<Person> people = new SQLHelper(this).getFinish();
+		
+		if (people.size() > 0) 
+		{
+			//add the patients to the list view
+			ListView personListView = (ListView)findViewById(R.id.ListView_People);
+			PersonAdapter personAdapter = new PersonAdapter(this, R.layout.person_row, people);
+			personListView.setAdapter(personAdapter);
+			personListView.setOnItemClickListener(new FruitItemClickListener());
+		}
+	}
+	
+	
+	
+	
+	
+	@Override
+	public void onClick(View arg0) {
+		// TODO Auto-generated method stub
+		this.finish();
+	}
+
+}

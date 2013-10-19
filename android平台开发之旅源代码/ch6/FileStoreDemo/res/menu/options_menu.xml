@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group>
+		<item android:id="@+id/MI_CONTEXT" 
+			android:title="Context file" 
+			android:orderInCategory="0" android:icon="@drawable/context">
+		</item>
+		<item android:id="@+id/MI_RAW" 
+			android:title="Raw file" 
+			android:orderInCategory="1" android:icon="@drawable/raw">
+		</item>
+		<item android:id="@+id/MI_FS" 
+			android:title="File system" 
+			android:orderInCategory="2" android:icon="@drawable/fs">
+		</item>		
+	</group>
+</menu>

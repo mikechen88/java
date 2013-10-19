@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/REVIEW_TITLE"
+            style="@style/h4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:text="Append record" />
+
+        <TextView
+            style="@style/h2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Timstamp:" />
+
+        <EditText
+            android:id="@+id/TEXT_TIMESTAMP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/TextView_ErrorFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/settings_error" />
+
+        <TextView
+            style="@style/h2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Title:" />
+
+        <EditText
+            android:id="@+id/TEXT_MONEY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/TextView_ErrorLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/settings_error" />
+
+        <TextView
+            style="@style/h2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Comments:" />
+
+        <EditText
+            android:id="@+id/TEXT_COMMENTS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/BTN_SUBMIT"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/BTN_DISCARD"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discard" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

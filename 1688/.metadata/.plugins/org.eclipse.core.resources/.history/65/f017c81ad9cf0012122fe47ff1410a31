@@ -1,0 +1,52 @@
+
+package com.example.a6;
+import java.util.ArrayList;
+
+/*
+ * This stores the information for each patient stored in the database
+ */
+public class Person
+{
+	private int id;
+	private String time;
+	private String title;
+	private String finish;
+	private String comment;
+	
+	public String getFinish() {
+		return finish;
+	}
+
+	public void setFinish(String finish) {
+		this.finish = finish;
+	}
+
+	public Person(int id, String time, String title,String comment,String finish)
+	{
+		this.id = id;
+		this.time = time;
+		this.title = title;
+		this.finish=finish;
+		this.comment=comment;
+	}
+	
+	public int getId()
+	{
+		return id;
+	}
+	
+	public String getTime()
+	{
+		return time;
+	}
+	
+	public String getTitle()
+	{
+		return title;
+	}
+	
+	public String getName()
+	{
+		return "   "  +time + "           " + title;
+	}
+}

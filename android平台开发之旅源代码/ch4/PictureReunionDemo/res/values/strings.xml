@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PictureReunionAct!</string>
+    <string name="app_name">PictureReunionApp</string>
+    <string name="top_margin">30px</string>    
+    <string name="left_margin">30px</string>    
+    <string name="cell_width">66px</string>
+    <string name="cell_height">40px</string>
+</resources>

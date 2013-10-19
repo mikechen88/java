@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_color">#6A6AFF</color>
+    <color name="bkgrd">#C0F7FE</color>
+    
+    <color name="settings_label">#8C8CFF</color>
+    <color name="settings_text">#8C8CFF</color>
+    <color name="settings_error">#FF3333</color>
+</resources>
+

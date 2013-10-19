@@ -1,0 +1,14 @@
+<resources>
+	<string-array name="audio_streams">
+		<item>STREAM_VOICE_CALL</item>
+		<item>STREAM_SYSTEM</item>
+		<item>STREAM_RING</item>
+		<item>STREAM_MUSIC</item>
+		<item>STREAM_ALARM</item>
+	</string-array>
+	<string-array name="directions">
+		<item>ADJUST_LOWER</item>
+		<item>ADJUST_RAISE</item>
+		<item>ADJUST_SAME</item>
+	</string-array>
+</resources>

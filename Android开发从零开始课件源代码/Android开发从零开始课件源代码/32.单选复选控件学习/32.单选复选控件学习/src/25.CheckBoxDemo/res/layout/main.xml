@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="你学过哪几种编程语言"
+	    android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:textColor="#FFFFFF"
+	    />
+	<CheckBox
+		android:id="@+id/cbJava"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Java"
+		android:textSize="18sp"
+		/>
+	<CheckBox
+		android:id="@+id/cbCSharp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="C#"
+		android:textSize="18sp"
+		/>
+	<CheckBox
+		android:id="@+id/cbAbap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Abap"
+		android:textSize="18sp"
+		/>
+	<CheckBox
+		android:id="@+id/cbPhp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Php"
+		android:textSize="18sp"
+		/>
+		
+</LinearLayout>

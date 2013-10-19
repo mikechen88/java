@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LAY_CONTENT"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal" />
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0,1" >
+    	<TableRow>
+    		<Button android:id="@+id/BTN_REGISTER"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Register" />
+    		<Button android:id="@+id/BTN_ACTION"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Action" />	    		
+    		<Button android:id="@+id/BTN_UNREGISTER"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="Unregister" />    		 				    		
+    	</TableRow>
+    </TableLayout>
+	<EditText android:id="@+id/TXT_CONTENTS"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical"
+	    android:editable="false"
+	    android:textSize="6pt" />    	    
+</LinearLayout>

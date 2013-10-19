@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LAY_CONTENT"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:padding="8sp"
+	    android:gravity="center_horizontal" />
+    <TableLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="0,1,2,3" >
+    	<TableRow>
+    		<Button android:id="@+id/BTN_HANDLER"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="asHandler" />
+    		<Button android:id="@+id/BTN_SERVICE"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="asService" />
+    		<Button android:id="@+id/BTN_RES"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="viaRes" />	    		
+    		<Button android:id="@+id/BTN_FS"  
+	    		android:layout_width="fill_parent" 
+	    		android:layout_height="wrap_content" 
+	    		android:text="viaFS" />	    		 				    		
+    	</TableRow>
+    </TableLayout>	    
+</LinearLayout>

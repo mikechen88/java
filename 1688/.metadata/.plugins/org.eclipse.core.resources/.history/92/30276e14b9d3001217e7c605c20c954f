@@ -1,0 +1,9 @@
+package com.example.a72;
+
+public class Snippet {
+	   <activity
+	             android:name="com.example.menu.About"
+	            android:label="@string/app_name" >
+	            </activity>
+}
+

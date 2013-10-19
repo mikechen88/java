@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="Add point" android:id="@+id/MI_ADD_POINT" android:icon="@drawable/favorite"/>
+	<item android:title="Get point" android:id="@+id/MI_GET_POINT" android:icon="@drawable/note"/>
+</menu>

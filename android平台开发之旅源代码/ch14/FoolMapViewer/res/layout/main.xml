@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<com.google.android.maps.MapView
+		android:id="@+id/MV_MAIN"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:clickable="true"
+	    android:apiKey="0z_s1QxO7W0ofExcVFqYBWU4c2Sod0TIumSNEcQ" />  
+</RelativeLayout>

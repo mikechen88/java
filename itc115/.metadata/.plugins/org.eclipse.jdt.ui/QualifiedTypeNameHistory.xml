@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="acm.program.GraphicsProgram"/>
+<fullyQualifiedTypeName name="acm.program.DialogProgram"/>
+<fullyQualifiedTypeName name="acm.io.IODialog"/>
+<fullyQualifiedTypeName name="acm.program.ConsoleProgram"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="acm.graphics.GRect"/>
+<fullyQualifiedTypeName name="acm.graphics.GRectangle"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

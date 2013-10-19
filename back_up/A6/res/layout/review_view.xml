@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/REVIEW_TITLE"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10sp"
+        android:text="Review record"
+       style="@style/h4" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Timstamp:"
+        style="@style/h2" />
+
+    <EditText
+        android:id="@+id/TEXT_TIMESTAMP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments:"
+        style="@style/h2" />
+
+    <EditText
+        android:id="@+id/TEXT_COMMENTS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:lines="2"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Money:" 
+        style="@style/h2"/>
+
+    <EditText
+        android:id="@+id/TEXT_MONEY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/EDIT_STATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/state"
+        style="@style/h2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finish" 
+        style="@style/h2"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/BTN_NEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next" 
+                style="@style/h2"/>
+
+            <Button
+                android:id="@+id/BTN_PREV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev" 
+                style="@style/h2"/>
+
+            <Button
+                android:id="@+id/BTN_BACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                style="@style/h2" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

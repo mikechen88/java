@@ -1,0 +1,13 @@
+<resources>
+<string-array name="ColumnTypes">
+<item>NULL</item>
+<item>INTEGER</item>
+<item>REAL</item>
+<item>TEXT</item>
+<item>BLOB</item>
+</string-array>
+<string-array name="SexTypes">
+<item>Male</item>
+<item>Female</item>
+</string-array>
+</resources>

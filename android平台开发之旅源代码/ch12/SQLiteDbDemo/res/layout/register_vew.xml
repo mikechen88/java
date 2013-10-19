@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+	<TableRow>    
+		<TextView 
+			android:text="User ID" 
+			android:paddingLeft="20dp"/>
+		<EditText android:id="@+id/txtRegisterUserID" 
+			android:padding="5dp" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>    
+		<TextView 
+			android:text="Password" 
+			android:paddingLeft="15dp"/>
+		<EditText android:id="@+id/txtRegisterPassword" 
+			android:padding="5dp" 
+			android:inputType="textPassword" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>    
+		<TextView android:text="Confirmation" 
+			android:paddingLeft="5dp"/>
+		<EditText android:id="@+id/txtRegisterPassword2"  
+			android:padding="5dp" 
+			android:inputType="textPassword" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>    
+		<TextView 
+			android:text="Name" 
+			android:paddingLeft="25dp"/>
+		<EditText android:id="@+id/txtRegisterName"  
+			android:padding="5dp" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>    
+		<TextView 
+			android:text="Sex" 
+			android:paddingLeft="30dp"/>
+		<Spinner  android:id="@+id/spRegisterSex"  
+			android:entries="@array/SexTypes" 
+			android:paddingRight="45dp" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>    
+		<TextView 
+			android:text="Birthday" 
+			android:paddingLeft="15dp"/>
+		<EditText android:id="@+id/txtRegisterBirthday"  
+			android:padding="5dp" 
+			android:gravity="right"/>
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/btnRegisterDiscard" 
+			android:text="Discard" 
+			android:gravity="center"/>
+		<Button android:id="@+id/btnRegisterCommit" 
+			android:text="Register" 
+			android:gravity="center"/>
+	</TableRow>							    
+</TableLayout>    

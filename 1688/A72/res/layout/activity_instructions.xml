@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".HomeActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions_title"
+        android:textSize="@dimen/heading1"
+        android:textColor="@color/heading1"
+        android:paddingBottom="@dimen/seperator" />
+    
+    <TextView
+        android:id="@+id/TextView_Instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>

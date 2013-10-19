@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:stretchColumns="0,1,2">
+	<TableRow>
+		<TextView android:id="@+id/txtName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"	
+			android:textSize="6pt"/>
+		<TextView android:id="@+id/txtSex"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:textSize="6pt"/>
+		<TextView android:id="@+id/txtAge"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:textSize="6pt"/>
+	</TableRow>
+</TableLayout>

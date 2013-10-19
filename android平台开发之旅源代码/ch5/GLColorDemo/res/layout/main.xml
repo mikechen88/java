@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- 必须为类全名 -->
+	<foolstudio.demo.opengl.GLColorView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent">
+    </foolstudio.demo.opengl.GLColorView>
+</LinearLayout>

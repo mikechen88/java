@@ -1,0 +1,15 @@
+<resources>
+	<string-array name="columns">
+		<item>time</item>	
+		<item>title</item>
+		<item>comment</item>
+		<item>finish</item>
+	</string-array>
+	<string-array name="operators">
+		
+		<item>=</item>		
+		<item>like</item>	
+		<item>&gt;</item>
+		<item>&lt;</item>
+	</string-array>
+</resources>

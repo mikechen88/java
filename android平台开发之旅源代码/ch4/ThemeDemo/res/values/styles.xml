@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="theme_dlg" parent="android:Theme.Dialog">
+		<item name="android:background">#FF00FFFF</item>
+		<item name="android:textColor">#FFFF0000</item>
+		<item name="android:textSize">13pt</item>
+	</style>
+	<style name="theme_panel" parent="android:Theme.Panel">
+		<item name="android:background">#FFFFFF00</item>
+		<item name="android:textColor">#FF0000FF</item>		
+		<item name="android:textSize">14pt</item>
+	</style>
+	<style name="theme_LNTB" parent="android:Theme.Light.NoTitleBar">
+		<item name="android:background">#FF00FF00</item>
+		<item name="android:textColor">#FF000000</item>		
+		<item name="android:textSize">13pt</item>		
+	</style>
+</resources>

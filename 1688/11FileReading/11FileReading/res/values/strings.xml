@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_title">Movies: Home</string>
+	<string name="instructions_title">Movies: Instructions</string>
+	<string name="ratings_title">Movies: Ratings</string>
+	<string name="button_instructions">Instructions</string>
+	<string name="button_ratings">Ratings</string>
+</resources>

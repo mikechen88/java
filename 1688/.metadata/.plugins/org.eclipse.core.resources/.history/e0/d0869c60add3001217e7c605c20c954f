@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_margin"
+    android:orientation="vertical"
+    android:background="@drawable/cc"
+    tools:context=".StockActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  
+        style="@style/heading1" />
+    
+    <TextView
+        android:id="@+id/stockName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       style="@style/heading2" />
+    
+    <TextView
+        android:id="@+id/buyPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/heading2" />
+    
+        <TextView
+        android:id="@+id/bidPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/heading2" />
+        
+            <TextView
+        android:id="@+id/hands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/heading2" />
+            
+                <TextView
+        android:id="@+id/profits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/heading2" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/app_name"
+	    android:layout_gravity="center_horizontal"
+	    android:padding="8sp"
+	    android:textSize="9pt" />
+	<Button android:id="@+id/BTN_QUERY"  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="Query"
+	    android:layout_gravity="center_horizontal" />
+	<EditText android:id="@+id/TXT_CONTENTS"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical"
+	    android:editable="false"
+	    android:textSize="6pt" />	       
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScrollViewDemoApp</string>
+	<string name="song_money">《我在马路边捡到一分钱》\n我在马路边捡到一分钱\n把它交到警察叔叔手里边\n叔叔拿着钱\n对我把头点\n我高兴地说了声：“叔叔，再见”</string>
+	<string name="song_bird">《小鸟》\n蓝天里有阳光，树林里有花香\n小鸟小鸟，你自由地飞翔\n在田野，在草地，在湖边，在山冈\n小鸟小鸟迎着春天歌唱\n啦啦啦啦啦。爱春天，爱阳光，爱湖水，爱花香\n小鸟小鸟，我的好朋友\n让我们一起飞翔歌唱\n一起飞翔歌唱\n啦啦啦啦啦</string>	
+	<string name="about_contents">Newspaper Reader v1.0\nfoolstudio@yahoo.com.cn</string>
+	<string name="song_clarion">《小螺号》\n小螺号，嘀嘀嘀吹\n海鸥听了展翅飞\n小螺号，嘀嘀嘀吹\n浪花听了笑微微\n小螺号，嘀嘀嘀吹\n声声唤船归啰\n小螺号，嘀嘀嘀吹\n阿爸听了快快回啰。\n茫茫的海洋，蓝蓝的海水\n吹起了小螺号，心里美吔</string>
+	<string name="song_quant">《让我们荡起双桨》\n让我们荡起双桨\n让我们荡起双桨，小船儿推开波浪\n海面倒映着白塔，四周环绕着绿树红墙\n小船儿轻轻飘荡在水中\n迎面吹来了凉爽的风\n红领巾迎着太阳，阳光洒在海面上\n水中鱼儿望着我们\n悄悄听我们愉快歌唱\n小船儿轻轻飘荡在水中\n迎面吹来了凉爽的风\n做完了一天的功课，我们来尽情欢乐\n我问你亲爱的伙伴\n谁给我们安排下幸福的生活？\n小船儿轻轻飘荡在谁中\n迎面吹来了凉爽的风</string>
+	<string name="view_title">儿歌荟萃</string>
+</resources>

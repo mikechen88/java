@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="0,1,2" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/time" />
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/title" />
+
+                <TextView
+                    style="@style/h4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/comment" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#FF00FF00" />
+        </TableLayout>
+
+        <Button
+            android:id="@+id/go_home"
+            style="@style/h2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back" />
+    </LinearLayout>
+
+</ScrollView>
